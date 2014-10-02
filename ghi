@@ -4048,8 +4048,10 @@ EOF
             end
             i = throb { api.post "/repos/#{repo}/issues", assigns }.body
             e.unlink if e
-            puts format_issue(i)
-            puts "Opened on #{repo}."
+            # puts format_issue(i)
+            # puts "Opened on #{repo}."
+            issue_num = i['number']
+            puts "#{issue_num}"
           end
         end
       rescue Client::Error => e
