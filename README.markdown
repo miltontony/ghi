@@ -7,23 +7,12 @@ GitHub Issues on the command line. Use your `$EDITOR`, not your browser.
 
 ## Install
 
-Via brew:
-``` sh
-$ brew install ghi
-```
-
 Via curl:
 ``` sh
 $ curl -sL https://raw.githubusercontent.com/stephencelis/ghi/master/ghi > ghi && \
   chmod 755 ghi && \
   mv ghi /usr/local/bin
 ```
-
-Via gem:
-``` sh
-$ gem install ghi
-```
-
 
 ## Usage
 
